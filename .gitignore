@@ -1,0 +1,12 @@
+.DS_Store
+.vs
+*.userprefs
+*.user
+*.suo
+*.exe
+*.dll
+*.mdb
+*.pdb
+bin
+obj
+packages
