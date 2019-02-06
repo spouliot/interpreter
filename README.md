@@ -2,6 +2,8 @@
 
 Quick and dirty experiments with Xamarin.iOS and the IL interpreter
 
+* **dynamicload**: a quick sample that does `Assembly.Load`, `dynamic`, code downloading and `System.Reflection.Emit` - all the things you can't normally do on iOS
+
 
 ## Requirements
 
@@ -9,7 +11,7 @@ Quick and dirty experiments with Xamarin.iOS and the IL interpreter
 
 This is a special build that includes 
 * a `mscorlib.dll` with extra types, so compiling code using `System.Reflection.Emit` is possible;
-* a `libmono` runtime including the System.Reflection.Emit native code (icalls) for devices;
+* a `libmono` runtime including the `System.Reflection.Emit` native code (icalls) for devices;
 * a `System.Core.dll` build for the _normal_ dynamic support (not the SLE interpreter);
 
 The other (experimental) features are already included in Xamarin.iOS 12.6+
@@ -18,7 +20,7 @@ The other (experimental) features are already included in Xamarin.iOS 12.6+
 ## How-to roll your own interpreted application
 
 1. Create a new iOS project (or use an existing one);
-2. In the project's options, *iOS Build*, add `--interpreter` to the **Additional mtouch arguments**
+2. In the project's options, **iOS Build**, add `--interpreter` to the **Additional mtouch arguments**
 3. Build and deploy to device
 
 
