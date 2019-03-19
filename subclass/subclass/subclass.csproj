@@ -132,9 +132,7 @@
         </Compile>
     </ItemGroup>
     <ItemGroup>
-      <BundleResource Include="..\customcode\bin\Debug\customcode.dll">
-        <Link>customcode.dll</Link>
-      </BundleResource>
+      <BundleResource Include="customcode.dll" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

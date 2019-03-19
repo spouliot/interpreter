@@ -6,6 +6,9 @@ It can be tricky to get both working together. The linker assume it knows all th
 
 To help this scenario some of the default optimizations are turned off when the interpreter is enabled. You can turn them back on if your application does not break the optimization assumptions.
 
+## Building Notes
+
+* By design this sample uses an assembly, `customcode.dll`, that is not known to the iOS project (`subclass.exe`). This requires building `customcode.csproj` abefore the main `subclass` project. This ensure that `mtouch` is unaware of the assembly and can't prepare (or change anything) to make it run (e.g. no AOT'ing, no linking...)
 
 ## FAQ
 
