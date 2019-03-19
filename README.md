@@ -37,7 +37,12 @@ The application will be AOT'ed just like normal Xamarin.iOS applications always 
 Some extra features, like `System.Reflection.Emit`, won't be supported.
 
 
-3. How can I control what's AOT'ed and what's interpreted ?
+3. What happens if I use a newer Xamarin.iOS, like 12.8.x+ ?
+
+Some extra features, like `System.Reflection.Emit`, won't be supported. Xamarin.iOS 12.7.1 is a special build to preview features that will become available in a future stable release.
+
+
+4. How can I control what's AOT'ed and what's interpreted ?
 
 ```
 --interpreter[=VALUE]  Enable the *experimental* interpreter. Optionally
