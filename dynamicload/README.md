@@ -20,6 +20,15 @@ This sample does **not** show
 
 * Good UI taste :-)
 
+## Building Notes
+
+* By design this sample uses assemblies (e.g. `pass.dll` and `fail.dll`) that are not known to the iOS project (`dynloadios.exe`). This requires building `pass.csproj` and `fail.csproj` before the main `dynloadios` project. This ensure that `mtouch` is unaware of the assemblies and can't prepare (or change anything) to make them run (e.g. no AOT'ing, no linking...)
+
+* Downloading an assembly requires you to start a local web server and update the URL inside `ViewController.cs`. Otherwise you'll get an exception.
+
+```csharp
+var url = "http://192.168.2.35:8000/download.dll";
+```
 
 ## FAQ
 

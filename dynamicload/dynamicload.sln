@@ -19,8 +19,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Debug|x86.Build.0 = Debug|Any CPU
-		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Release|x86.ActiveCfg = Release|Any CPU
-		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Release|x86.Build.0 = Release|Any CPU
+		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Release|x86.ActiveCfg = Debug|Any CPU
+		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Release|x86.Build.0 = Debug|Any CPU
 		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Release|iPhone.ActiveCfg = Release|Any CPU
@@ -31,8 +31,8 @@ Global
 		{F1470A27-AAE2-4AC7-B844-623EC98BF04A}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Debug|x86.Build.0 = Debug|Any CPU
-		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Release|x86.ActiveCfg = Release|Any CPU
-		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Release|x86.Build.0 = Release|Any CPU
+		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Release|x86.ActiveCfg = Debug|Any CPU
+		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Release|x86.Build.0 = Debug|Any CPU
 		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{F9ACD423-8188-451F-BB47-9B79E2CF9C3D}.Release|iPhone.ActiveCfg = Release|Any CPU
@@ -53,5 +53,12 @@ Global
 		{E2C82117-41D6-4B53-9869-0B15879EE19E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{E2C82117-41D6-4B53-9869-0B15879EE19E}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{E2C82117-41D6-4B53-9869-0B15879EE19E}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.StandardHeader = $2
+		$0.VersionControlPolicy = $3
 	EndGlobalSection
 EndGlobal
