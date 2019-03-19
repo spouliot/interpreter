@@ -4,6 +4,8 @@ Quick and dirty experiments with Xamarin.iOS and the IL interpreter
 
 * **dynamicload**: a quick sample that does `Assembly.Load`, `dynamic`, code downloading and `System.Reflection.Emit` - all the things you can't normally do on iOS
 
+* **subclass**: a specialized sample to validate special optimizations (mostly done by the managed linker) are not interfering, by default, with the interpreter.
+
 
 ## Requirements
 
